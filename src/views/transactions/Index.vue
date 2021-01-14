@@ -64,7 +64,7 @@ export default {
             .then((response)=> {
                 transactions.value.data.splice(index, 1)
             }).catch((err)=>{
-
+                console.log(err)
             }) 
             console.log(transactions.value)
         }
